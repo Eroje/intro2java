@@ -1,5 +1,5 @@
 
-
+/* Constructor */
 
 class Dog {
     constructor(name) {
@@ -25,3 +25,20 @@ class Dog {
   halley.incrementBehavior(); // Add one to behavior
   console.log(halley.name); // Print name value to console
   console.log(halley.behavior); // Print behavior value to console
+
+
+  /* Create Instance */
+
+  /* Create an instance of the Surgeon class.
+  Set the name to 'Ruth Jackson' and department to 'Orthopedics'.
+  Save the instance to a constant variable called surgeonJackson. */
+
+  class Surgeon {
+    constructor(name, department) {
+      this.name = name;
+      this.department = department;
+    }
+  }
+  
+  const surgeonJackson = new Surgeon('Ruth Jackson', 'Orthopedics');
+  console.log(surgeonJackson);
